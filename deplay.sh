@@ -22,7 +22,7 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 
-git push -f https://github.com/seanhong1215/vue3-landing-page.git main:gh-pages
+git push -f https://github.com/seanhong1215/vue3-landing-page.git master:gh-pages
 cd -
 
 # 執行指令，在終端機輸入 sh deploy.sh
